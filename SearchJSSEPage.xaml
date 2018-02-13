@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SampleDB.SearchJSSEPage">
+	<RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <ScrollView x:Name="scrollViewRef" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="0,10,0,40" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=0}" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0, Constant=0}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1.0,Constant=0}">
+            <StackLayout Spacing ="15" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" Orientation="Vertical" Padding="15">
+
+                <!-- Group Start -->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="Group *" FontSize ="14"/>
+                 <Frame OutlineColor = "Silver" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <Picker HorizontalOptions ="FillAndExpand"/>
+                   <Image HorizontalOptions ="End" Source ="arrow" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                </StackLayout>
+                <!-- Group End -->
+
+                <!-- Organization Start -->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="Organization *" FontSize ="14"/>
+                 <Frame OutlineColor = "Silver" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <Picker HorizontalOptions ="FillAndExpand"/>
+                   <Image HorizontalOptions ="End" Source ="arrow" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                </StackLayout>
+                <!-- Organization End -->
+
+                <!-- Department Start -->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="Department" FontSize ="14"/>
+                 <Frame OutlineColor = "Silver" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <Picker HorizontalOptions ="FillAndExpand"/>
+                   <Image HorizontalOptions ="End" Source ="arrow" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                </StackLayout>
+                <!-- Department End -->
+
+                <!-- Section Start -->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="Section" FontSize ="14"/>
+                 <Frame OutlineColor = "Silver" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <Picker HorizontalOptions ="FillAndExpand"/>
+                   <Image HorizontalOptions ="End" Source ="arrow" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                </StackLayout>
+                <!-- Section End -->
+
+                <!-- Section Start -->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="Observer" FontSize ="14"/>
+                 <Frame OutlineColor = "Silver" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <Picker HorizontalOptions ="FillAndExpand"/>
+                   <Image HorizontalOptions ="End" Source ="observer" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                </StackLayout>
+                <!-- Section End -->
+
+                <Label Text ="OR/AND" HorizontalOptions ="Center" FontSize ="13"/>
+
+                <!-- Date Start -->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="Date" FontSize ="14"/>
+                 <StackLayout Orientation ="Horizontal" HorizontalOptions ="FillAndExpand" Spacing="5">
+
+                 <StackLayout Orientation ="Vertical" HorizontalOptions ="FillAndExpand"> 
+                  <Label Text ="From" FontSize = "12"/>
+                 <Frame OutlineColor = "Silver" HorizontalOptions ="FillAndExpand" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <DatePicker HorizontalOptions ="FillAndExpand"/>
+                   <Image HorizontalOptions ="End" Source ="date" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                 </StackLayout>  
+                        
+                  <StackLayout Orientation ="Vertical" HorizontalOptions ="FillAndExpand"> 
+                  <Label Text ="To" FontSize = "12"/>
+                 <Frame OutlineColor = "Silver" HorizontalOptions ="FillAndExpand" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <DatePicker HorizontalOptions ="FillAndExpand"/>
+                   <Image HorizontalOptions ="End" Source ="date" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                 </StackLayout> 
+                        
+                  </StackLayout>
+                </StackLayout>
+                <!-- Date End -->
+
+                <Label Text ="OR/AND" HorizontalOptions ="Center" FontSize ="13"/>
+
+                <!-- Status Start -->
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand" Orientation = "Vertical">
+                 <Label Text ="Status" FontSize ="14"/>
+                 <Frame OutlineColor = "Silver" HasShadow = "false" CornerRadius ="0" Padding ="5">
+                  <StackLayout Orientation = "Horizontal" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+                   <Picker HorizontalOptions ="FillAndExpand"/>
+                   <Image HorizontalOptions ="End" Source ="arrow" HeightRequest ="30" WidthRequest ="30"/>
+                  </StackLayout>
+                 </Frame>
+                </StackLayout>
+                <!-- Status End -->
+
+                <!-- Buttons layout Start-->
+                <StackLayout Padding ="20,0,20,0" HorizontalOptions = "FillAndExpand" VerticalOptions ="StartAndExpand" Spacing ="10" Orientation ="Vertical">
+                  <Button HorizontalOptions ="FillAndExpand" VerticalOptions ="StartAndExpand" Text ="Search" FontAttributes ="Bold" BackgroundColor ="#9B9B9B" TextColor ="White"/>
+                </StackLayout>
+                 <!-- Buttons layout end-->
+                
+                </StackLayout>
+            </ScrollView>
+        </RelativeLayout>
+</ContentPage>
