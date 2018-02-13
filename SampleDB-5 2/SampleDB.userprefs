@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{7AB9C493-D5B5-4610-801F-076A5FD16B1D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleDB/CommunicationsPage.xaml.cs">
+    <Files>
+      <File FileName="SampleDB/CommunicationsPage.xaml.cs" Line="732" Column="1" />
+      <File FileName="SampleDB/JobInformationPage.xaml.cs" Line="18" Column="70" />
+      <File FileName="SampleDB/PickerPage.xaml.cs" Line="56" Column="34" />
+      <File FileName="SampleDB/CommunicationsPage.xaml" Line="66" Column="1" />
+      <File FileName="SampleDB/SaveJsseModel.cs" Line="13" Column="24" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="694" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="695" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="700" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="1211" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="77" column="88" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="64" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="868" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="102" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="70" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="455" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="1016" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="547" column="39" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="732" column="39" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="1046" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/SampleDB-5 2/SampleDB/CommunicationsPage.xaml.cs" relfile="SampleDB/CommunicationsPage.xaml.cs" line="990" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="SampleDB/CommunicationsPage.xaml.cs" line="1210" offsetX="458" offsetY="18135" expression="InputOrgBehaviors[0].BehaviorType_ID" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SampleDB.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.516B307A-09C5-4B58-8608-A7464319830A" />
+  <DisabledProjects>
+    <String>Droid/SampleDB.Droid.csproj</String>
+  </DisabledProjects>
+</Properties>
